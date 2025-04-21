@@ -1,0 +1,32 @@
+---
+spring:
+  profiles:
+    active: local
+  batch:
+    initializer:
+      enabled: true
+    job:
+      enabled: true
+
+    jpa:
+      database-platform: org.hibernate.dialect.MySQL5Dialect 
+  datasource:
+    source:
+      url: 
+      username: 
+      password: 
+      driverClassName: com.mysql.cj.jdbc.Driver
+      schema: 
+      table: 
+    target:
+      url: 
+      username: 
+      password: 
+      driverClassName:  
+      schema: 
+      table: 
+#logging.level.org.springframework.batch: DEBUG
+spring.batch.jdbc.initialize-schema: always
+spring.batch.initialize-schema: always 
+spring.datasource.hikari.connection-test-query: SELECT 1
+

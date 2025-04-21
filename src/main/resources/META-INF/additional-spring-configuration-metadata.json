@@ -1,0 +1,62 @@
+{"properties": [
+  {
+    "name": "source.mysql.url",
+    "type": "java.lang.String",
+    "description": "A description for 'source.mysql.url'"
+  },
+  {
+    "name": "source.mysql.username",
+    "type": "java.lang.String",
+    "description": "A description for 'source.mysql.username'"
+  },
+  {
+    "name": "source.mysql.password",
+    "type": "java.lang.String",
+    "description": "A description for 'source.mysql.password'"
+  },
+  {
+    "name": "source.mysql.driverClassName",
+    "type": "java.lang.String",
+    "description": "A description for 'source.mysql.driverClassName'"
+  },
+  {
+    "name": "source.snowflake.url",
+    "type": "java.lang.String",
+    "description": "A description for 'source.snowflake.url'"
+  },
+  {
+    "name": "source.snowflake.user",
+    "type": "java.lang.String",
+    "description": "A description for 'source.snowflake.user'"
+  },
+  {
+    "name": "source.batch.job.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'source.batch.job.enabled'"
+  },
+  {
+    "name": "source.mysql.jdbcUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'source.mysql.jdbcUrl'"
+  },
+  {
+    "name": "source.snowflake.jdbcUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'source.snowflake.jdbcUrl'"
+  },
+  {
+    "name": "source.snowflake.username",
+    "type": "java.lang.String",
+    "description": "A description for 'source.snowflake.username'"
+  },
+  {
+    "name": "source.snowflake.password",
+    "type": "java.lang.String",
+    "description": "A description for 'source.snowflake.password'"
+  },
+  {
+    "name": "source.snowflake.driverClassName",
+    "type": "java.lang.String",
+    "description": "A description for 'source.snowflake.driverClassName'"
+  }
+]}
